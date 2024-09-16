@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamień/Papier/Nożyce</title>
+    <link rel="stylesheet" href="/styles/papier.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="js-container-game container-game">
+        <h1>Kamień, papier, nożyce</h1>
+        <div class="buttons-container">
+            <div class="button-subcontainer">
+                <button class="js-rock play-button css-rock"></button>
+                <div class="button-title">Kamień</div>
+            </div>
+            <div class="button-subcontainer">
+                <button class="js-paper play-button css-paper"></button>
+                <div class="button-title">Papier</div>
+            </div>
+            <div class="button-subcontainer">
+                <button class="js-scissors play-button css-scissors"></button>
+                <div class="button-title">Nożyce</div>
+            </div>     
+        </div>
+
+        <div class="js-clash-game-images css-clash-game-images">
+            <div class="buttons-container">
+                <div class="button-subcontainer">
+                    <button class="play-button result-btn js-player-button" ></button>
+                    <div class="button-title">Ty</div>
+                </div>
+                <div class="button-subcontainer">
+                    <button class="play-button result-btn js-computer-bitton"></button>
+                    <div class="button-title">Komputer</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="js-result-container css-result-container"></div>
+        <div class="js-player-panel">
+            <div class="js-player-wins"></div>
+            <div class="js-player-loss"></div>
+            <div class="js-player-ties"></div>
+        </div>
+        <div class="points-container">
+            <div class="js-player-points"></div>
+            <div class="js-computer-points"></div>
+        </div>
+
+        <div class="button-start-game-container"></div>  
+    </div>
+    
+<script src="/scripts/papier.js"></script>
+</body>
+</html>

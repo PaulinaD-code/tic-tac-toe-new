@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/styles/playcomp.css">
+  <link rel="stylesheet" href="/styles/papier.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Jersey+15&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand&family=Playpen+Sans&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Caveat:wght@400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Jersey+15&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand&family=Playpen+Sans&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Caveat:wght@400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Indie+Flower&family=Jersey+15&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand&family=Playpen+Sans&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Caveat:wght@400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gloria+Hallelujah&family=Great+Vibes&family=Indie+Flower&family=Jersey+15&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand&family=Playpen+Sans&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="js-container-game container-game">
+    <h1>Kamień, papier, nożyce</h1>
+    <div class="buttons-container">
+        <div class="button-subcontainer">
+            <button class="js-rock play-button css-rock"></button>
+            <div class="button-title">Kamień</div>
+        </div>
+        <div class="button-subcontainer">
+            <button class="js-paper play-button css-paper"></button>
+            <div class="button-title">Papier</div>
+        </div>
+        <div class="button-subcontainer">
+            <button class="js-scissors play-button css-scissors"></button>
+            <div class="button-title">Nożyce</div>
+        </div>     
+    </div>
+
+    <div class="js-clash-game-images css-clash-game-images">
+        <div class="buttons-container">
+            <div class="button-subcontainer">
+                <button class="play-button result-btn js-player-button" ></button>
+                <div class="button-title">Ty</div>
+            </div>
+            <div class="button-subcontainer">
+                <button class="play-button result-btn js-computer-bitton"></button>
+                <div class="button-title">Komputer</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="js-result-container css-result-container"></div>
+    <div class="js-player-panel">
+        <div class="js-player-wins"></div>
+        <div class="js-player-loss"></div>
+        <div class="js-player-ties"></div>
+    </div>
+    <div class="points-container">
+        <div class="js-player-points"></div>
+        <div class="js-computer-points"></div>
+    </div>
+
+    <div class="button-start-game-container"></div>  
+  </div>  
+
+  <div class="js-draw-computer-container"></div>
+
+  <div class="js-computer-tic-tac-toe css-computer-tic-ta-toe-game">
+    <h1>KÓŁKO I KRZYŻYK</h1>
+
+    <div class="js-sign-collecting-container css-sign-collecting-container">
+      Wybierz swój znak  
+    </div>
+    <div class="button-container js-game-buttons">
+      <button class="js-x-button css-x-button">X</button>
+      <button class="js-o-button css-o-button">O</button>
+    </div>
+  
+    <div class="container-tic-tac-toe"></div>
+    <div class="js-answer"></div>
+    <div class="js-second-answer"></div>
+    
+    <div class="button-container column">
+      <button class="js-reset-button">Wyczyść</button>
+    </div>
+  </div>
+ 
+  <script src="/scripts/playComp.js"></script>
+</body

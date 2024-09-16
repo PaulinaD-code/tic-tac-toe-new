@@ -1,0 +1,103 @@
+body{
+    font-family: "Gloria Hallelujah", cursive;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.options-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.option-container:hover{
+    .option-title{
+        scale: 1.2;
+        color: rgb(52, 181, 224);
+    }
+
+    .option-img{
+        transform: rotate(25deg);
+    }
+}
+
+.option-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 1s ease-in-out;
+}
+
+.option-img{
+    width: 40%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 1s ease-in-out;
+}
+
+.player{
+    background-image: url('/img-icons/people1.png');
+    color: yellow;
+}
+
+.computer{
+    background-image: url('/img-icons/pc\(2\).png');
+    color: yellow;
+}
+
+@media(max-width: 600px){
+
+.options-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.option-container{
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.option-img{
+    width: 40%;
+    box-sizing: border-box;
+    height: 200px;
+}
+
+}

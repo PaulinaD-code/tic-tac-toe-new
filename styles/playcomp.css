@@ -1,0 +1,134 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-family: "Caveat", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Gloria Hallelujah", cursive;
+  background-color: black;
+  color: #fff;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-tic-tac-toe{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.button-container{
+  display: flex;
+  cursor: url('/img-icons/point.png'), auto;
+  cursor: pointer;
+}
+
+.css-field{
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+ 
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: url('/icons8-pencil-20.png'), auto;
+  cursor: url('/img-icons/blue-pencil.png'), auto;
+  cursor: pointer;
+  cursor: url('/img-icons/icons8-pencil-40.png'), auto;
+  background-color: transparent;
+  font: inherit;
+  font-size: 40px;
+  color: #fff;
+}
+
+.css-field:nth-child(3n){
+  border-right: none;
+}
+
+.css-field:nth-child(6) ~ .css-field{
+  border-bottom: none;
+}
+
+.css-field:hover{
+  background-color: rgba(0, 187, 255, 0.79);
+}
+
+.css-x-button,
+.css-o-button{
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: transparent;
+  font:inherit;
+  font-size: 40px;
+  border: none;
+  cursor: url('/icons8-hand-cursor-25.png'), auto;
+}
+
+.css-invisible-button{
+  display: none;
+}
+
+.js-check-result,
+.js-reset-button{
+  font-size: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: transparent;
+  font:inherit;
+  font-size: 40px;
+  border: none;
+  cursor: url('/icons8-hand-cursor-25.png'), auto;
+}
+
+.js-check-result:hover,
+.js-reset-button:hover{
+  color: rgba(0, 187, 255, 0.79);
+}
+
+.js-answer,
+.js-second-answer{
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.css-computer-tic-ta-toe-game{
+  display:none;
+}
+
+.css-computer-tic-ta-toe-game-active{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1ps solid white;
+  width: 96%;
+  height: 100vh;
+}
+
+.css-sign-collecting-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.css-sign-collecting-container-active{
+  font-size: 2em;
+  margin: 1em 0 1.3em;
+}

@@ -1,0 +1,117 @@
+body{
+    font-family: "Kalam", cursive;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+    width:400px;
+}
+
+.container-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    height:100vh;
+}
+
+.container-game-invisible{
+    display: none;
+}
+
+.buttons-container{
+    display: flex;
+    margin: 0 0 2em 0;
+}
+
+.button-subcontainer{
+    margin: 0 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.play-button{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid #fff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;  
+}
+
+.css-rock{
+    background-image: url('/img-icons/icons8-fist-50.png');
+}
+
+.css-paper{
+    background-image: url('/img-icons/icons8-palm-64.png');
+}
+
+.css-scissors{
+    background-image: url('/img-icons/icons8-hand-scissors-50.png');
+}
+
+.result-btn{
+    width:80px;
+    height: 80px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.points-container{
+    display:flex;
+    justify-content: space-between;
+    width:96%;
+    font-size: 1.2em;
+    margin:1em 0;
+}
+
+.css-clash-game-images{
+    display:none;
+}
+
+.css-clash-game-images-visible{
+    display: block;
+}
+
+.css-result-container{
+    font-size: 1.7em;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.css-enter-game{
+    background-color: #FF8C00;
+    font: inherit;
+    font-size: 1.5em;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 2s ease-in-out
+}
+
+.css-enter-game:hover{
+    color:#FF8C00;
+    background-color: black;
+}
+
+.sign-collecting-container{
+    text-align: center;
+}
+
+.css-enter-game:focus{
+    color:#FFF;
+    background-color: black;
+}
+
+
+
