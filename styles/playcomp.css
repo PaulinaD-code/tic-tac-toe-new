@@ -71,7 +71,7 @@ body{
   font:inherit;
   font-size: 40px;
   border: none;
-  cursor: url('/icons8-hand-cursor-25.png'), auto;
+  cursor: url('../icons8-hand-cursor-25.png'), auto;
 }
 
 .css-invisible-button{
@@ -89,7 +89,7 @@ body{
   font:inherit;
   font-size: 40px;
   border: none;
-  cursor: url('/icons8-hand-cursor-25.png'), auto;
+  cursor: url('../icons8-hand-cursor-25.png'), auto;
 }
 
 .js-check-result:hover,
