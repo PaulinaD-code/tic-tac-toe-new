@@ -67,12 +67,12 @@ h1{
 }
 
 .player{
-    background-image: url('img-icons/people1.png');
+    background-image: url('../img-icons/people1.png');
     color: yellow;
 }
 
 .computer{
-    background-image: url('img-icons/pc\(2\).png');
+    background-image: url('../img-icons/pc\(2\).png');
     color: yellow;
 }
 
