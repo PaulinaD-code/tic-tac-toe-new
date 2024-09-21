@@ -46,15 +46,15 @@ body{
 }
 
 .css-rock{
-    background-image: url('/img-icons/icons8-fist-50.png');
+    background-image: url('../img-icons/icons8-fist-50.png');
 }
 
 .css-paper{
-    background-image: url('/img-icons/icons8-palm-64.png');
+    background-image: url('../img-icons/icons8-palm-64.png');
 }
 
 .css-scissors{
-    background-image: url('/img-icons/icons8-hand-scissors-50.png');
+    background-image: url('../img-icons/icons8-hand-scissors-50.png');
 }
 
 .result-btn{
