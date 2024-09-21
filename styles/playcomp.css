@@ -21,7 +21,7 @@ body{
 
 .button-container{
   display: flex;
-  cursor: url('/img-icons/point.png'), auto;
+  cursor: url('../img-icons/point.png'), auto;
   cursor: pointer;
 }
 
@@ -36,10 +36,10 @@ body{
   align-items: center;
   justify-content: center;
   color: #fff;
-  cursor: url('/icons8-pencil-20.png'), auto;
-  cursor: url('/img-icons/blue-pencil.png'), auto;
+  cursor: url('../icons8-pencil-20.png'), auto;
+  cursor: url('../img-icons/blue-pencil.png'), auto;
   cursor: pointer;
-  cursor: url('/img-icons/icons8-pencil-40.png'), auto;
+  cursor: url('../img-icons/icons8-pencil-40.png'), auto;
   background-color: transparent;
   font: inherit;
   font-size: 40px;
